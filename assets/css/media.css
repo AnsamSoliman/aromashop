@@ -1,0 +1,49 @@
+@media (max-width:991px) {
+    .logo {
+        width: 23%
+    }
+    .navbar .container{
+        width: 91%
+    }
+    .header-content{
+        padding-top: 50px;
+    }
+    .item{
+        width: 48%;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width:767px) {
+    .fa-bars {
+        display: unset;
+    }
+    .list, .navbar .button{
+        display: none;
+    }
+    .logo, .icons {
+        width: 50%
+    }
+    .icons {
+        text-align: right;
+    }
+    .header-content, .header-image {
+        float: none;
+        width: 100%;
+    }
+    .header-content{
+        padding-left: 0;
+    }
+    .product {
+        width: 50%
+    }
+}
+@media (max-width:567px) {
+    .item{
+        float: none;
+        width: 100%
+    }
+    .product {
+        float: none;
+        width: 100%
+    }
+}
